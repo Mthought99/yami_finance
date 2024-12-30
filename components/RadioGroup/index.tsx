@@ -6,7 +6,7 @@ type RadioGroupProps = Omit<React.DetailedHTMLProps<HTMLAttributes<HTMLInputElem
     Partial<{
         selectedValue: string;
         orientation: string;
-        name: boolean;
+        name: string;
         disabled: boolean;
         onChange: Function;
     }>;
@@ -42,7 +42,7 @@ const RadioGroup = React.forwardRef<HTMLInputElement, RadioGroupProps>(
 
         return (
             <>
-                <div className="{className}">{compChildren}</div>
+                <div className={className}>{compChildren}</div>
             </>
         );
     },

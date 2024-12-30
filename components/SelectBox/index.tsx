@@ -8,8 +8,9 @@ const shapes = {
 }as const;
 const variants = {
     fill: {
-        white_A700: "bg_white-a700 text-blue_gray-100_02",
+        gray_100: "bg-gray-100 text-gray-700_03",
         gray_200: "bg-gray-200 text-gray-400_02",
+        white_A700: "bg-white-a700 text-blue_gray-100_02",
     },
 }as const;
 const sizes = {
@@ -64,7 +65,7 @@ const SelectBox = React.forwardRef<any, SelectProps>(
                 <Select 
                     ref={ref}
                     options={options}
-                    className={`${className} flex ${(shape && shapes[shape]) ||""} ${(size && sizes[size]) || ""} ${(variant && variants[variant]?.[color as keyof (typeof variants)[typeof variant]]) || ""}`}
+                    className={`${className} flex ${(shape && shapes[shape]) || ""} ${(size && sizes[size]) || ""} ${(variant && variants[variant]?.[color as keyof (typeof variants)[typeof variant]]) || ""}`}
                     isSearchable={isSearchable}
                     isMulti={isMulti}
                     components={{

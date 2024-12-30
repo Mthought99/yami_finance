@@ -3,7 +3,7 @@ import React from "react";
 
 const variants = {
     primary: 
-        "border-blue_gray-100_01 border border-solid bg-white-a700 checked:border_gray-001_01 checked:border checked:border checked:border-solid checked:bg-white-a700 checked:focus:bg-white-a700 checked:focus:border-blue_gray-100_01",
+        "border-blue_gray-100_01 border border-solid bg-white-a700 checked:border_gray-001_01 checked:border checked:border checked:border-solid checked:bg-white-a700 checked:focus:bg-black-900_1e checked:focus:border-blue_gray-100_01",
 } as const;
 const sizes = {
     xs: "h-[14px] w-[14px] rounded-sm",

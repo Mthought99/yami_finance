@@ -9,7 +9,7 @@ export default function SignIn(){
 				<div className="container-sm flex items-center justify-between gap-5 rounded-[20px] bg-white-a700 p-3.5 shadow-sm lg:p-5 md:flex-col md:p-5">
 					<div className="flex w-[52%] flex-col justify-center rounded-[20px] bg-gray-200_03 px-12 py-9 md:w-full md:p-5 md:px-5 sm:p-4">
 						<Img 
-							src="yami_logo.svg"
+							src="Yami Finance Logo.svg"
 							width={295}
 							height={78}
 							alt="Headerlogo"
@@ -62,7 +62,7 @@ export default function SignIn(){
 										/>
 									</div>
 								</div>
-								<a href="" target="_blank">
+								<a href="../homePage">
 									<Button 
 										color="pink_900_01"
 										size="2xl"

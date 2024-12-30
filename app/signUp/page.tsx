@@ -31,7 +31,7 @@ export default function SignUp(){
               <div className="flex flex-1 md:self-stretch">
                   <div className="flex w-[90%] flex-col justify-center rounded-[20px] bg-gray-200_03 px-12 py-9 md:w-full md:p-5 md:px-5 sm:p-4">
                       <Img 
-                          src="yami_logo.svg"
+                          src="Yami Finance Logo.svg"
                           width={295}
                           height={78}
                           alt="Headerlogo"
@@ -159,7 +159,7 @@ export default function SignUp(){
                                 <Input
                                     size="xl"
                                     shape="round"
-                                    name="zipcode"
+                                    name="tel"
                                     placeholder={`+44 7909 075712`}
                                     className="self-stretch border border-solid border-blue_gray-100_01 font-medium tracking-[0.60px] !text-black-900 sm:pr-4"
                                 />
@@ -230,9 +230,9 @@ export default function SignUp(){
                                 name="terms & Condition"
                                 label="by proceeding. I agree to Yami Finance and acknowledge that I have read the privacy policy."
                                 id="terms_condition"
-                                className="gap-1 self-stretch text-xs font-medium tracking-[0.60px] text-gray-700_03)"
+                                className="gap-1 self-stretch text-xs font-medium tracking-[0.60px] text-gray-700_03"
                             />
-                            <a href="">
+                            <a href="../signIn">
                                 <Text size="textmd" as="p" className="!font-medium tracking-[0.70px] !text-black-900">
                                     <span className="text-black-900">Have an account?&nbsp;</span>
                                     <span className="font-bold text-gray-700_01">Login</span>
